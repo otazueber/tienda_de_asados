@@ -161,7 +161,7 @@ function loguearDeslogearse() {
         person.innerHTML = htmlUsuarioNoLogueado;
         usuarioLogueado = false;
     } else {
-        window.location.assign(obtenerDirectorioRaiz() + "/pages/login.html");
+        window.location.assign("./pages/login.html");
     }
 }
 
@@ -174,7 +174,7 @@ person.addEventListener("click", (e) => {
 function linkearCarrito() {
     var carrito = document.getElementById("carrito");
     if (carrito != null) {
-        carrito.href = obtenerDirectorioRaiz() + "/pages/carrito.html";
+        carrito.href = "./pages/carrito.html";
     }
 }
 
@@ -436,7 +436,7 @@ function realizarPago() {
 
         })
         sleep(3000).then(function () {
-            window.location.assign("../index.html");
+            window.location.assign("./index.html");
         });
 
     }
