@@ -143,15 +143,15 @@ function leerCredenciales() {
 
 leerCredenciales();
 
-function obtenerDirectorioRaiz() {
+function obtenerRuta() {
     var rutaAbsoluta = self.location.href;
     var posicionUltimaBarra = rutaAbsoluta.lastIndexOf("/");
     var archivoHtml = rutaAbsoluta.substring(posicionUltimaBarra + "/".length, rutaAbsoluta.length - 5);
     if (archivoHtml == "index") {
-        return "";
+        return "./pages/";
     }
     else {
-        return "..";
+        return "";
     }
 }
 
@@ -161,7 +161,7 @@ function loguearDeslogearse() {
         person.innerHTML = htmlUsuarioNoLogueado;
         usuarioLogueado = false;
     } else {
-        window.location.assign("./pages/login.html");
+        window.location.assign(obtenerRuta() + "login.html");
     }
 }
 
@@ -174,7 +174,7 @@ person.addEventListener("click", (e) => {
 function linkearCarrito() {
     var carrito = document.getElementById("carrito");
     if (carrito != null) {
-        carrito.href = "./pages/carrito.html";
+        carrito.href = obtenerRuta() + "carrito.html";
     }
 }
 
@@ -436,7 +436,7 @@ function realizarPago() {
 
         })
         sleep(3000).then(function () {
-            window.location.assign("./index.html");
+            window.location.assign("../index.html");
         });
 
     }
