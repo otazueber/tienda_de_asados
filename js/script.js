@@ -148,7 +148,7 @@ function obtenerRuta() {
     var posicionUltimaBarra = rutaAbsoluta.lastIndexOf("/");
     var archivoHtml = rutaAbsoluta.substring(posicionUltimaBarra + "/".length, rutaAbsoluta.length - 5);
     if (archivoHtml == "index") {
-        return "pages/";
+        return "./pages/";
     }
     else {
         return "";
@@ -174,7 +174,15 @@ person.addEventListener("click", (e) => {
 function linkearCarrito() {
     var carrito = document.getElementById("carrito");
     if (carrito != null) {
-        carrito.href = "pages/carrito.html";
+        var rutaAbsoluta = self.location.href;
+        var posicionUltimaBarra = rutaAbsoluta.lastIndexOf("/");
+        var archivoHtml = rutaAbsoluta.substring(posicionUltimaBarra + "/".length, rutaAbsoluta.length - 5);
+        if (archivoHtml == "index") {
+            carrito.href = "pages/carrito.html";
+        } else {
+            carrito.href = "carrito.html";
+        }
+
     }
 }
 
