@@ -174,7 +174,7 @@ person.addEventListener("click", (e) => {
 function linkearCarrito() {
     var carrito = document.getElementById("carrito");
     if (carrito != null) {
-        carrito.href = obtenerRuta() + "carrito.html";
+        carrito.href = "pages/carrito.html";
     }
 }
 
