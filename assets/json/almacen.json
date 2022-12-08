@@ -1,0 +1,170 @@
+[
+    {
+        "idProducto": 25,
+        "imagen": "../assets/img/almacen/Salsa_Premium_Barbacoa.jpg",
+        "descripcion": "Salsa: Premium Barbacoa",
+        "unidadMedida": "unidad",
+        "precio": 790,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 26,
+        "imagen": "../assets/img/almacen/Dulce_de_Leche_Oringinal.jpg",
+        "descripcion": "Dulce de Leche Oringinal",
+        "unidadMedida": "unidad",
+        "precio": 510,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 27,
+        "imagen": "../assets/img/almacen/Chipas_congeladas_600g.jpg",
+        "descripcion": "Chipas congeladas x 600g",
+        "unidadMedida": "paquete",
+        "precio": 127,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 28,
+        "imagen": "../assets/img/almacen/Huevos_organicos_COECO.jpg",
+        "descripcion": "Huevos Orgánicos COECO",
+        "unidadMedida": "paquete",
+        "precio": 390,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 29,
+        "imagen": "../assets/img/almacen/Sal_entrefina_especiada_Cerdo.jpg",
+        "descripcion": "Sal entrefina especiada - Cerdo",
+        "unidadMedida": "unidad",
+        "precio": 420,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 30,
+        "imagen": "../assets/img/almacen/Sal_entrefina_especiada_vacuna.jpg",
+        "descripcion": "Sal entrefina especiada - Carne vacuna",
+        "unidadMedida": "unidad",
+        "precio": 420,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 31,
+        "imagen": "../assets/img/almacen/Pickles_mixtos.jpg",
+        "descripcion": "Pickles mixtos",
+        "unidadMedida": "unidad",
+        "precio": 330,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 32,
+        "imagen": "../assets/img/almacen/Sal_ahumada.jpg",
+        "descripcion": "Salsa: Chimichurri con vino malbec",
+        "unidadMedida": "unidad",
+        "precio": 690,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 33,
+        "imagen": "../assets/img/almacen/Salsa_Chimichurri_vino_malbec.jpg",
+        "descripcion": "Salsa: Chimichurri con vino malbec",
+        "unidadMedida": "unidad",
+        "precio": 690,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 34,
+        "imagen": "../assets/img/almacen/Salsa_Sriracha.jpg",
+        "descripcion": "Salsa: Sriracha",
+        "unidadMedida": "unidad",
+        "precio": 930,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 35,
+        "imagen": "../assets/img/almacen/Aderezos.jpg",
+        "descripcion": "Aderezos",
+        "unidadMedida": "unidad",
+        "precio": 330,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 36,
+        "imagen": "../assets/img/almacen/Salsa_Sweet_Chili.jpg",
+        "descripcion": "Salsa: Sweet Chili",
+        "unidadMedida": "unidad",
+        "precio": 930,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 37,
+        "imagen": "../assets/img/almacen/Berenjenas_en_aceite_vinagre.jpg",
+        "descripcion": "Berenjenas en aceite y vinagre",
+        "unidadMedida": "unidad",
+        "precio": 470,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 38,
+        "imagen": "../assets/img/almacen/Salsa_Ciruelas_jengibre_soja_vino_torrontes.jpg",
+        "descripcion": "Salsa: Ciruelas, jengibre, salsa de soja y vino torrontés",
+        "unidadMedida": "unidad",
+        "precio": 760,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 39,
+        "imagen": "../assets/img/almacen/Salsa_Ajo_ahumado.jpg",
+        "descripcion": "Salsa: Ajo ahumado",
+        "unidadMedida": "unidad",
+        "precio": 850,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 40,
+        "imagen": "../assets/img/almacen/Salsa_Mostaza_miel.jpg",
+        "descripcion": "Salsa: Mostaza y miel",
+        "unidadMedida": "unidad",
+        "precio": 820,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 41,
+        "imagen": "../assets/img/almacen/Salsa_Spicy_Mango_Sauce.jpg",
+        "descripcion": "Salsa: Spicy Mango Sauce",
+        "unidadMedida": "unidad",
+        "precio": 760,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 42,
+        "imagen": "../assets/img/almacen/Papas_Smiles.jpg",
+        "descripcion": "Papas Smiles",
+        "unidadMedida": "unidad",
+        "precio": 580,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 43,
+        "imagen": "../assets/img/almacen/Morrones_en_vinagre.jpg",
+        "descripcion": "Morrones en vinagre",
+        "unidadMedida": "unidad",
+        "precio": 420,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 44,
+        "imagen": "../assets/img/almacen/Papas_Surecrisp.jpg",
+        "descripcion": "Papas Surecrisp",
+        "unidadMedida": "Kg",
+        "precio": 600,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 45,
+        "imagen": "../assets/img/almacen/Salsa_Frutos_rojos.jpg",
+        "descripcion": "Salsa: Frutos rojos, vino malbec y miel",
+        "unidadMedida": "unidad",
+        "precio": 760,
+        "cantidad": 1
+    }
+]

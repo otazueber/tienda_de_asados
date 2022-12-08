@@ -1,0 +1,40 @@
+/* SOLO PARA DESKTOP */
+$maxWidth: 768px;
+$minWidth: 769px;
+$rotate: 360deg;
+
+@media screen and (min-width: $minWidth) {
+    .producto {
+        width: 50%;
+        margin-bottom: 5%;
+    }
+
+    .producto:hover {
+        width: 55%;
+        margin-bottom: 0%;
+        transition: width 0s;
+    }
+
+    .logo {
+        transition: all 1s;
+    }
+
+    .logo:hover {
+        transform: rotate($rotate);
+        transition: rotate($rotate) 1s;
+    }
+
+    @keyframes resaltar {
+        from {
+            color: black;
+        }
+
+        to {
+            color: white;
+        }
+    }
+
+    .slogan {
+        animation: resaltar 2s infinite;
+    }
+}

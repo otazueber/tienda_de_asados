@@ -1,0 +1,26 @@
+$colores: (
+	colorFondo:black,
+	colorFuente:white,
+);
+
+@mixin colorYbackground($color, $background, $fSize) {
+	color: $color;
+	background-color: $background;
+	font-size: $fSize;
+}
+
+div {
+	@include colorYbackground(white, black, 20px);
+}
+
+.bground {
+	background-color: map-get($colores, colorFondo);
+}
+
+.font {
+	color: map-get($colores, colorFuente);
+}
+
+a {
+	color: map-get($colores, colorFuente);
+}

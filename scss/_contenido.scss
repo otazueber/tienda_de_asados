@@ -1,0 +1,65 @@
+@import "_colores";
+@import "_fuentes";
+@import "_animaciones";
+
+$displayFlex: "flex";
+
+a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.row {
+    margin-left: 1%;
+
+    &-producto {
+        margin-left: 4%;
+    }
+}
+
+.display-flex{
+    display: flex; 
+    justify-content: right;
+    align-items: center;
+}
+
+.user-login {
+    width: 270px;
+}
+
+.user-data {
+    width: 350px;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;}
+
+@media screen and (max-width: $maxWidth) {
+    .btn{
+        display: $displayFlex;
+    }
+}
+
+@media screen and (min-width: $minWidth) {
+    .btn{
+        display: none;
+    }
+}
+
+.imgFondo img {
+    display: $displayFlex;
+    width: 100%;
+}
+
+.producto {
+    display: $displayFlex;
+    width: 90%;
+}
+
+.centrarElementos{
+    text-align: center;
+}
+.possition-rigth{
+    text-align: right;
+}

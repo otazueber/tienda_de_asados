@@ -1,0 +1,74 @@
+[
+    {
+        "idProducto": 46,
+        "imagen": "../assets/img/vinos/Salentein_Malbec.jpg",
+        "descripcion": "Vino Salentein Malbec 750ml",
+        "unidadMedida": "botella",
+        "precio": 1390,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 47,
+        "imagen": "../assets/img/vinos/Salentein_Blanc_de_blancs.jpg",
+        "descripcion": "Vino Salentein Blanc de blancs 750ml",
+        "unidadMedida": "botella",
+        "precio": 990,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 48,
+        "imagen": "../assets/img/vinos/Zuccardi_Q_Malbec.jpg",
+        "descripcion": "Vino Zuccardi Q Malbec 750ml",
+        "unidadMedida": "botella",
+        "precio": 2130,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 49,
+        "imagen": "../assets/img/vinos/Salentein_Numina_Cabernet_Franc.jpg",
+        "descripcion": "Vino Salentein Numina Cabernet Franc 750ml",
+        "unidadMedida": "botella",
+        "precio": 2270,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 50,
+        "imagen": "../assets/img/vinos/DV_Catena_Cabernet_Malbec.jpg",
+        "descripcion": "Vino DV Catena Cabernet - Malbec 750ml",
+        "unidadMedida": "botella",
+        "precio": 2190,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 51,
+        "imagen": "../assets/img/vinos/Animal_Malbec.jpg",
+        "descripcion": "Vino Animal Malbec 750ml",
+        "unidadMedida": "botella",
+        "precio": 1490,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 52,
+        "imagen": "../assets/img/vinos/Dv_Catena_Malbec_Malbec.jpg",
+        "descripcion": "Vino Dv Catena Malbec - Malbec 750ml",
+        "unidadMedida": "botella",
+        "precio": 3990,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 53,
+        "imagen": "../assets/img/vinos/Salentein_Numina_Malbec.jpg",
+        "descripcion": "Vino Salentein Numina Malbec 750ml",
+        "unidadMedida": "botella",
+        "precio": 2270,
+        "cantidad": 1
+    },
+    {
+        "idProducto": 54,
+        "imagen": "../assets/img/vinos/Zuccardi_Q_Tempranillo.jpg",
+        "descripcion": "Vino Zuccardi Q Tempranillo 750ml",
+        "unidadMedida": "botella",
+        "precio": 2130,
+        "cantidad": 1
+    }
+]

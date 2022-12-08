@@ -1,0 +1,45 @@
+.boton {
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.boton-aceptar {
+	@extend .boton;
+	background-color: red;
+	color: white;
+	border: 1px solid white;
+}
+
+.boton-cancelar {
+	@extend .boton;
+	background-color: blue;
+	color: yellow;
+	border: 1px solid white;
+}
+
+.boton-iniciar {
+	@extend .boton;
+	width: 270px;
+	background-color: red;
+	color: white;
+	border: 1px solid white;
+}
+.btnSeguirNavegando{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btnFinalizarCompra, .btnAgregarProducto{
+	background-color: rgb(115, 19, 134);
+	color: white;
+}
+
+.boton-pagar{
+	@extend .btnFinalizarCompra;
+	width: 300px;
+}
