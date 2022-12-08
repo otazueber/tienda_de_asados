@@ -23,13 +23,12 @@ function crearHtml(arrayProductos, contenedor, estoyMostrandoElCarrito = false) 
         if (arrayProductos.length > 1) {
             cantidadProductos += "s";
         }
-        const importe = obtenerImporteTotal();
         html = `<div class="row">
                     <div class="col-12 col-lg-4">
                         <h1 class="p-5">Mi carrito (${cantidadProductos})</h1>
                     </div>
                     <div class="col-12 col-lg-4 pt-5 centrarElementos">
-                        <a href="pago.html"><button class="btnFinalizarCompra">Finalizar compra $${obtenerImporteTotal()}</button></a>
+                        <a href="pago.html"><button id="btnFinalizarCompra" class="btnFinalizarCompra">Finalizar compra $ ${obtenerImporteTotal()}</button></a>
                     </div>
                 </div>`;
     }
@@ -262,6 +261,8 @@ function restarProducto(id) {
     }
     else {
         mostrarNuevaCantidad(id, productoEncontrado.cantidad);
+        grabarCarritoEnLocalStorage();
+        actualizarBotonFinalizarCompra();
     }
 }
 
@@ -269,6 +270,8 @@ function sumarProducto(id) {
     let productoEncontrado = encontrar(carrito, id);
     productoEncontrado.cantidad++;
     mostrarNuevaCantidad(id, productoEncontrado.cantidad);
+    grabarCarritoEnLocalStorage();
+    actualizarBotonFinalizarCompra();
 }
 
 function eliminarProducto(id) {
@@ -320,6 +323,13 @@ function mostrarCarrito() {
 }
 
 mostrarCarrito();
+
+function actualizarBotonFinalizarCompra(){
+    let btn = document.getElementById("btnFinalizarCompra");
+    if (btn != null) {
+        btn.innerText = "Finalizar compra $ " + obtenerImporteTotal();
+    }
+}
 
 function administrarPaginaDePago() {
     let botonPagar = document.getElementById("btnPagar");
