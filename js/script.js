@@ -148,7 +148,7 @@ function obtenerRuta() {
     var posicionUltimaBarra = rutaAbsoluta.lastIndexOf("/");
     var archivoHtml = rutaAbsoluta.substring(posicionUltimaBarra + "/".length, rutaAbsoluta.length - 5);
     if (archivoHtml == "index") {
-        return "./pages/";
+        return "pages/";
     }
     else {
         return "../";
