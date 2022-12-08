@@ -151,7 +151,7 @@ function obtenerRuta() {
         return "./pages/";
     }
     else {
-        return "";
+        return "../";
     }
 }
 
