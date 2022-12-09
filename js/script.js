@@ -148,7 +148,7 @@ function obtenerRuta() {
     var posicionUltimaBarra = rutaAbsoluta.lastIndexOf("/");
     var archivoHtml = rutaAbsoluta.substring(posicionUltimaBarra + "/".length, rutaAbsoluta.length - 5);
     if (archivoHtml == "index") {
-        return "./pages/";
+        return "pages/";
     }
     else {
         return "";
@@ -178,7 +178,7 @@ function linkearCarrito() {
         var posicionUltimaBarra = rutaAbsoluta.lastIndexOf("/");
         var archivoHtml = rutaAbsoluta.substring(posicionUltimaBarra + "/".length, rutaAbsoluta.length - 5);
         if (archivoHtml == "index") {
-            carrito.href = "./pages/carrito.html";
+            carrito.href = "pages/carrito.html";
         } else {
             carrito.href = "carrito.html";
         }
