@@ -144,11 +144,9 @@ function leerCredenciales() {
 leerCredenciales();
 
 function obtenerRuta() {
-    var rutaAbsoluta = self.location.href;
-    var posicionUltimaBarra = rutaAbsoluta.lastIndexOf("/");
-    var archivoHtml = rutaAbsoluta.substring(posicionUltimaBarra + "/".length, rutaAbsoluta.length - 5);
-    if (archivoHtml == "index") {
-        return "pages/";
+    let element = document.getElementById("index");
+    if (element != null) {
+        return "../pages/";
     }
     else {
         return "";
@@ -174,10 +172,8 @@ person.addEventListener("click", (e) => {
 function linkearCarrito() {
     var carrito = document.getElementById("carrito");
     if (carrito != null) {
-        var rutaAbsoluta = self.location.href;
-        var posicionUltimaBarra = rutaAbsoluta.lastIndexOf("/");
-        var archivoHtml = rutaAbsoluta.substring(posicionUltimaBarra + "/".length, rutaAbsoluta.length - 5);
-        if (archivoHtml == "index") {
+        let element = document.getElementById("index");
+        if (element != null) {
             carrito.href = "pages/carrito.html";
         } else {
             carrito.href = "carrito.html";
