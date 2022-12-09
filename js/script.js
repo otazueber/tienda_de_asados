@@ -146,7 +146,7 @@ leerCredenciales();
 function obtenerRuta() {
     let element = document.getElementById("index");
     if (element != null) {
-        return "/pages/";
+        return "./pages/";
     }
     else {
         return "";
